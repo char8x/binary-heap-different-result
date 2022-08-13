@@ -2,10 +2,8 @@ import testCaseMap from "./test-case-map.json" assert { type: "json" };
 import { BinaryHeap } from "https://deno.land/std@0.152.0/collections/binary_heap.ts";
 import Heap from "https://esm.sh/heap@0.2.7";
 import {
-  difference,
   differenceWith,
   isEqual,
-  isEqualWith,
 } from "https://cdn.skypack.dev/lodash@4.17.21?dts";
 
 function topKFrequent(nums, k) {
